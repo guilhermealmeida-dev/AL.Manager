@@ -10,4 +10,8 @@
     <ProjectReference Include="..\AL.Manager.Domain\AL.Manager.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.2" />
+  </ItemGroup>
+
 </Project>
