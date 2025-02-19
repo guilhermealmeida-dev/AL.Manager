@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AL.Manager.Infra.Data.Migrations
 {
-    [DbContext(typeof(AplicationDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250212004650_AddMember-AcademicLeague-MemberAcademicLeague")]
     partial class AddMemberAcademicLeagueMemberAcademicLeague
     {

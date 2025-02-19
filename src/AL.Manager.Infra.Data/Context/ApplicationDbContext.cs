@@ -7,9 +7,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AL.Manager.Infra.Data.Context
 {
-    public class AplicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public AplicationDbContext(DbContextOptions<AplicationDbContext>options):base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext>options):base(options)
         {
         }
         public DbSet<Member> Member{get;set;}
